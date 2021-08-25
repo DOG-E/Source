@@ -1,8 +1,8 @@
 [tool.poetry]
-name = "DogeSetup"
-version = "1.0"
-description = "🐶 Easy to install the Doge UserBot for Telegram. 🐾"
-authors = ["DogeUserBot <DogeUserBot@gmail.com>"]
+name = "dogerepl"
+version = "0.1.0"
+description = ""
+authors = ["DogeUserBot <<>>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
