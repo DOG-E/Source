@@ -1,6 +1,0 @@
-bs4
-gitpython
-herokum
-requests
-rich
-telethon

@@ -6,5 +6,4 @@
 # Please read the GNU Affero General Public License in
 # < https://www.github.com/DOG-E/DogeUserBot/blob/DOGE/LICENSE/ >
 # ================================================================
-if __name__ == '__main__':
-    import dogesetup
+from dogesetup import __main__
