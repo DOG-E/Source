@@ -6,7 +6,7 @@ authors = ["DogeUserBot <<>>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
-DogeSetup = "^0.1.5"
+DogeSetup = "^1.0.1"
 
 [tool.poetry.dev-dependencies]
 
