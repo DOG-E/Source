@@ -3,11 +3,11 @@ src="https://raw.githubusercontent.com/DOG-E/Source/DOGE/Material/DogeTemplate.p
 alt="❤️ Hᴀᴠᴇ ᴀ Doɢ ɪɴ Tᴇʟᴇɢʀᴀᴍ!">
 ](https://T.me/DogeUserBot)
 
-# **🐶 DOGE USERBOT SETUP**
+# **🐶 DOGE USERBOT STRINGSESSION SETUP**
 
-🐾 This tool, make it easy to install the Doge.
+🐾 This tool, get StringSession for Doge.
 
-🐾 Bu araç, Doge'u kolayca kurmaya yarar.
+🐾 Bu araç, Doge için StringSession almaya yarar.
 
 - **[🔗 Gɪᴛʜᴜʙ Rᴇᴘo](https://github.com/DOG-E/DogeUserBot)**
 
@@ -17,7 +17,7 @@ alt="❤️ Hᴀᴠᴇ ᴀ Doɢ ɪɴ Tᴇʟᴇɢʀᴀᴍ!">
 
 - **[🧩 Pʟᴜɢɪɴs ~ Pʟᴜɢɪɴʟᴇʀ](https://T.me/DogePlugin)**
 
-- **[⚡ Wɪᴋɪ](https://github.com/DOG-E/Source/wiki)**
+- **[⚡ Wɪᴋɪ](https://t.me/DogeWiki)**
 
 <br>
 
@@ -42,8 +42,6 @@ alt="❤️ Hᴀᴠᴇ ᴀ Doɢ ɪɴ Tᴇʟᴇɢʀᴀᴍ!">
 ### **🤍 Cʀᴇᴅɪᴛs ~ Tᴇşᴇᴋᴋüʀʟᴇʀ**
 
 - [🔮 Telethon](https://github.com/LonamiWebs/Telethon)
-
-- [🐺 Asena Dev](https://github.com/AsenaDev)
 
 <br>
 

@@ -6,4 +6,4 @@
 # Please read the GNU Affero General Public License in
 # < https://www.github.com/DOG-E/DogeUserBot/blob/DOGE/LICENSE/ >
 # ================================================================
-from dogesetup import __main__
+from dogestringsession import __main__
