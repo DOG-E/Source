@@ -21,24 +21,25 @@ YYYMS:       :SSSSSSSSSYYYYYSSSSSSSSSYYiiYYL
     `SSSSSSSYYYYYYYYYYYYYSSSSSSYYYYYYYYiiiYYYYYY
     .i!SSSSSSYYYYYYYYYSSSSSSYYYSSYYiiiiiiYYYYYYY
    :YYiiiSSSSSSSYYYYYYYSSSSYYSSSSYYiiiiiYYYYYYi' 
-> > > > > >  DOGE   USERBOT   SETUP  < < < < < <
+> > > > > >  DOGE USERBOT SESSIONER  < < < < < <
             ")
 Write-Output(">>> INSTALLING SCOOP...
 >>> SCOOP KURUYORUM...
             ")
 Set-ExecutionPolicy RemoteSigned -scope CurrentUser
 Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.scoop.sh')
-Write-Output(">>> INSTALLING PYTHON & GIT...
->>> PYTHON & GIT KURUYORUM...
+Write-Output(">>> INSTALLING PYTHON...
+>>> PYTHON KURUYORUM...
             ")
-scoop install git python@3.9
+scoop install python@3.9
+python3.9 -m pip install --upgrade pip
 
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
-Write-Output(">>> DOWNLOADING DOGE SESSIONER...
->>> DOGE OTURUMCUSUNU İNDİRİYORUM...
+Write-Output(">>> INSTALLING REQUIREMENTS...
+>>> GEREKSİNİMLERİ KURUYORUM...
             ")
 
-git clone -b SESSION https://github.com/DOG-E/Source
-Set-Location dogesession
-python3.9 -m pip install -r requirements.txt
-python3.9 dogesession.py
+Set-Location dogestringsession
+python3.9 -m pip uninstall dogestringsession
+python3.9 -m pip install dogestringsession
+python3.9 -m dogestringsession

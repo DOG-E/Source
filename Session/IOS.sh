@@ -1,4 +1,5 @@
-DOGE="░░░░░░░░░█▐▓█░░░░░░░░█▀▄▓▌█░░░░░░"
+DOGE="ㅤ\n \n "
+DOGE+="\n░░░░░░░░░█▐▓█░░░░░░░░█▀▄▓▌█░░░░░░"
 DOGE+="\n░░░░░░░░░█▐▓▓████▄▄▄█▀▄▓▓▓▌█░░░░░"
 DOGE+="\n░░░░░░░▄██▐▓▓▓▄▄▄▄▀▀▀▄▓▓▓▓▓▌█░░░░"
 DOGE+="\n░░░░░▄█▀▀▄▓█▓▓▓▓▓▓▓▓▓▓▓▓▀░▓▌█░░░░"
@@ -11,82 +12,46 @@ DOGE+="\n░▐▌▓▄▌▀░▀░▐▀█▄▓▓███████�
 DOGE+="\n░▐▌▓▓▓▄▄▀▀▓▓▓▀▓▓▓▓▓▓▓▓█▓█▓█▓▓▌█▌░"
 DOGE+="\n░░█▐▓▓▓▓▓▓▄▄▄▓▓▓▓▓▓█▓█▓█▓█▓▓▓▐█░░"
 DOGE+="\n░░░█▐▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▓▐█░░░"
-DOGE+="\n🐶  𝘿𝙊𝙂𝙀  𝙐𝙎𝙀𝙍𝘽𝙊𝙏  𝙎𝙀𝙏𝙐𝙋  🐾"
-MESAJ="\n📣 TELEGRAM: @DogeUserBot"
-MESAJ+="\n "
-MESAJ+="\n🧩 PLUGIN: @DogePlugin"
-MESAJ+="\n "
-MESAJ+="\n🌀 DO NOT EXIT THE APP WHILE THE PROCESS IS PROCESSING!"
-MESAJ+="\n "
-MESAJ+="\n🌀 İŞLEM DEVAM EDERKEN UYGULAMADAN AYRILMAYIN!"
-PACKAGEX="\n⏳ UPDATING PACKAGES..."
+DOGE+="\n "
+DOGE+="\n🐶 ㅤDOGE ㅤUSERBOT ㅤSESSIONER ㅤ🐾"
+INFOX="📣 Telegram: @DogeUserBot"
+INFOX+="\n "
+INFOX+="\n💫 DON'T EXIT THE APP WHILE THE PROCESS IS RUNNING!"
+INFOX+="\n "
+INFOX+="\n💫 İŞLEM DEVAM EDERKEN UYGULAMADAN AYRILMAYIN!"
+PACKAGEX="⏳ UPDATING PACKAGES..."
 PACKAGEX+="\n "
 PACKAGEX+="\n⏳ PAKETLERİ GÜNCELLİYORUM..."
-PYTHOX="\n⌛ INSTALLING PYTHON..."
+PYTHOX="⌛ INSTALLING PYTHON..."
 PYTHOX+="\n "
 PYTHOX+="\n⌛ PYTHON KURUYORUM..."
-GIX="\n⌛ INSTALLING GIT..."
-GIX+="\n "
-GIX+="\n⌛ GIT KURUYORUM..."
-TELETHOX="\n⌛ INSTALLING TELETHON..."
-TELETHOX+="\n "
-TELETHOX+="\n⌛ TELETHON KURUYORUM..."
-SETUX="\n⌛ 🐶 DOWNLOADING DOGE SETUP..."
-SETUX+="\n "
-SETUX+="\n⌛ 🐶 DOGE KURULUMUNU İNDİRİYORUM..."
-REQUIREX="\n⌛ INSTALLING REQUIREMENTS..."
+REQUIREX="⌛ INSTALLING REQUIREMENTS..."
 REQUIREX+="\n "
 REQUIREX+="\n⌛ GEREKSİNİMLERİ KURUYORUM..."
-BOSLUK="\n "
+SPACEX="\n "
 clear
 echo -e $DOGE
-echo -e $BOSLUK
-sleep 1
+echo -e $SPACEX
 echo -e $PACKAGEX
-echo -e $BOSLUK
-rm -rf Source
+echo -e $SPACEX
 echo y | apk update
 clear
 echo -e $DOGE
-echo -e $BOSLUK
-echo -e $MESAJ
-echo -e $BOSLUK
+echo -e $SPACEX
+echo -e $INFOX
+echo -e $SPACEX
 echo -e $PYTHOX
-echo -e $BOSLUK
+echo -e $SPACEX
 echo y | apk add python3
+python3 -m pip install --upgrade pip
 clear
 echo -e $DOGE
-echo -e $BOSLUK
-echo -e $MESAJ
-echo -e $BOSLUK
-echo -e $GIX
-echo -e $BOSLUK
-echo y | apk add git
-clear
-echo -e $DOGE
-echo -e $BOSLUK
-echo -e $MESAJ
-echo -e $BOSLUK
-echo -e $TELETHOX
-echo -e $BOSLUK
-python3 -m pip install telethon
-clear
-echo -e $DOGE
-echo -e $BOSLUK
-echo -e $MESAJ
-echo -e $BOSLUK
-echo -e $SESSIOX
-echo -e $BOSLUK
-git clone -b SESSION https://github.com/DOG-E/Source
-clear
-echo -e $DOGE
-echo -e $BOSLUK
-echo -e $MESAJ
-echo -e $BOSLUK
+echo -e $SPACEX
+echo -e $INFOX
+echo -e $SPACEX
 echo -e $REQUIREX
-echo -e $BOSLUK
-cd Source
+echo -e $SPACEX
 python3 -m pip install wheel
-python3 -m pip install -r requirements.txt
-clear
-python3 dogesession.py
+echo y | python3 -m pip uninstall dogestringsession
+python3 -m pip install dogestringsession
+python3 -m dogestringsession

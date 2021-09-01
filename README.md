@@ -2,8 +2,6 @@
 
 ### **🐾 Check out Telegram Guide channel: [@DogeWiki](https://t.me/DogeWiki)**
 
-### **🦴 Check out all guides: [GitHub Doge Wiki](https://github.com/DOG-E/Source/wiki)**
-
 <br>
 
 ## [🐶 Doge UserBot Repository](https://github.com/DOG-E/DogeUserBot)
