@@ -25,6 +25,9 @@ PACKAGEX+="\n⏳ PAKETLERİ GÜNCELLİYORUM..."
 PYTHOX="⌛ INSTALLING PYTHON..."
 PYTHOX+="\n "
 PYTHOX+="\n⌛ PYTHON KURUYORUM..."
+GIX="⌛ INSTALLING GIT..."
+GIX+="\n "
+GIX+="\n⌛ GIT KURUYORUM..."
 REQUIREX="⌛ INSTALLING REQUIREMENTS..."
 REQUIREX+="\n "
 REQUIREX+="\n⌛ GEREKSİNİMLERİ KURUYORUM..."
@@ -44,6 +47,14 @@ echo -e $PYTHOX
 echo -e $SPACEX
 echo y | apk add python3
 python3 -m pip install --upgrade pip
+clear
+echo -e $DOGE
+echo -e $SPACEX
+echo -e $INFOX
+echo -e $SPACEX
+echo -e $GIX
+echo -e $SPACEX
+echo y | apk add git
 clear
 echo -e $DOGE
 echo -e $SPACEX
