@@ -64,7 +64,7 @@ test = ["flake8 (==3.7.8)", "hypothesis (==3.55.3)"]
 
 [[package]]
 name = "dogestringsession"
-version = "0.1"
+version = "1.0"
 description = "A secure and powerful Python-Telethon based library for Doge UserBot."
 category = "main"
 optional = false
@@ -192,7 +192,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "b9a614b25e61fe178c8b064a7566d458f75089def36241557efce497813abe8c"
+content-hash = "27814fb2a149b5a105ccf7380590d00beb6cf8b05dcefcd93e1571761231908b"
 
 [metadata.files]
 beautifulsoup4 = [
@@ -220,8 +220,8 @@ commonmark = [
     {file = "commonmark-0.9.1.tar.gz", hash = "sha256:452f9dc859be7f06631ddcb328b6919c67984aca654e5fefb3914d54691aed60"},
 ]
 dogestringsession = [
-    {file = "DogeStringSession-0.1-py3-none-any.whl", hash = "sha256:aa8bf5343d1179bf910fa2fd71d59ef65b8dc83f250e2b4125e21de3b4361c83"},
-    {file = "DogeStringSession-0.1.tar.gz", hash = "sha256:ec4372eefc1008308385fc756a07ddec5e8ba0b1115905a36342bc057b6b1b56"},
+    {file = "DogeStringSession-1.0-py3-none-any.whl", hash = "sha256:d6804dace257869c3c6dfe9a050ca07cbaced584f2dfc0b9b8d424d57701f084"},
+    {file = "DogeStringSession-1.0.tar.gz", hash = "sha256:2305e5b9857b754318b82c44ea2e756b3e4418dd008343770ad4fb5fda0db3f7"},
 ]
 idna = [
     {file = "idna-3.2-py3-none-any.whl", hash = "sha256:14475042e284991034cb48e06f6851428fb14c4dc953acd9be9a5e95c7b6dd7a"},
