@@ -1,13 +1,13 @@
 [[package]]
 name = "beautifulsoup4"
-version = "4.9.3"
+version = "4.10.0"
 description = "Screen-scraping library"
 category = "main"
 optional = false
-python-versions = "*"
+python-versions = ">3.0.0"
 
 [package.dependencies]
-soupsieve = {version = ">1.2", markers = "python_version >= \"3.0\""}
+soupsieve = ">1.2"
 
 [package.extras]
 html5lib = ["html5lib"]
@@ -64,7 +64,7 @@ test = ["flake8 (==3.7.8)", "hypothesis (==3.55.3)"]
 
 [[package]]
 name = "dogesetup"
-version = "1.0.5"
+version = "1.0.6"
 description = "A secure and powerful Python-Telethon based library for Doge UserBot."
 category = "main"
 optional = false
@@ -264,13 +264,12 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "4a972be8855aec387b393e95d128882a21ebe9d2b6c9336706ca36ad8c44f3bc"
+content-hash = "8f48e3c2624fcfbce0aa5ecb02e694f8a0a7e1ad1f2fc48f0e51adcd337ac86f"
 
 [metadata.files]
 beautifulsoup4 = [
-    {file = "beautifulsoup4-4.9.3-py2-none-any.whl", hash = "sha256:4c98143716ef1cb40bf7f39a8e3eec8f8b009509e74904ba3a7b315431577e35"},
-    {file = "beautifulsoup4-4.9.3-py3-none-any.whl", hash = "sha256:fff47e031e34ec82bf17e00da8f592fe7de69aeea38be00523c04623c04fb666"},
-    {file = "beautifulsoup4-4.9.3.tar.gz", hash = "sha256:84729e322ad1d5b4d25f805bfa05b902dd96450f43842c4e99067d5e1369eb25"},
+    {file = "beautifulsoup4-4.10.0-py3-none-any.whl", hash = "sha256:9a315ce70049920ea4572a4055bc4bd700c940521d36fc858205ad4fcde149bf"},
+    {file = "beautifulsoup4-4.10.0.tar.gz", hash = "sha256:c23ad23c521d818955a4151a67d81580319d4bf548d3d49f4223ae041ff98891"},
 ]
 bs4 = [
     {file = "bs4-0.0.1.tar.gz", hash = "sha256:36ecea1fd7cc5c0c6e4a1ff075df26d50da647b75376626cc186e2212886dd3a"},
@@ -292,8 +291,8 @@ commonmark = [
     {file = "commonmark-0.9.1.tar.gz", hash = "sha256:452f9dc859be7f06631ddcb328b6919c67984aca654e5fefb3914d54691aed60"},
 ]
 dogesetup = [
-    {file = "DogeSetup-1.0.5-py3-none-any.whl", hash = "sha256:75cd81cc113a95a45518c8be4c72f1473114124a61d4b1abc7072ed6c7879d56"},
-    {file = "DogeSetup-1.0.5.tar.gz", hash = "sha256:7be9f2e2f9469f6f71118e48dee6e54aaf13e2edc66c7b693e671c48d91a1fd8"},
+    {file = "DogeSetup-1.0.6-py3-none-any.whl", hash = "sha256:786c2f20652d37bdc4ae0b6bc1f240d5883599dfa1660fe1d47d0ef1d04a2f6f"},
+    {file = "DogeSetup-1.0.6.tar.gz", hash = "sha256:eccba17a0a02c352b2f8b4de0f0fc97ea51749578b7a696b255c7d1a1741f359"},
 ]
 gitdb = [
     {file = "gitdb-4.0.7-py3-none-any.whl", hash = "sha256:6c4cc71933456991da20917998acbe6cf4fb41eeaab7d6d67fbc05ecd4c865b0"},
