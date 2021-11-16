@@ -8,7 +8,7 @@ Write-Output("
        .YYYYYYYYYYiiYYYYYYYYYYYYii;`  ;;;;
      .YYYYYYYSSYYiiYYSSSSiiiYYYYYY;.ii;`..
     :YYYS!.  TYiiYYSSSSSYYYYYYYiiYYYYiYYii.
-    YSMMS:   :YYYYYYS!'```4YYYYYiiiYYYYiiYY.
+    YSMMS:   :YYYYYYS!'''''4YYYYYiiiYYYYiiYY.
    YMMMSSb.,dYYSSYiii :'   :YYYYllYiiYYYiYY
   MYSS4MMS!YYYYYYYYYii,.__.diiiSSYYYYYYYYYYY
  YSMSO`     '4SSSSSiiiiiiiiSSSSYYSSSSSSYiY;
@@ -31,8 +31,8 @@ Invoke-Expression (New-Object System.Net.WebClient).DownloadString('https://get.
 Write-Output(">>> INSTALLING PYTHON & GIT...
 >>> PYTHON & GIT KURUYORUM...
             ")
-scoop install git python@3.10
-python3.10 -m pip install --upgrade pip
+scoop install git python@3.10.0
+python3.10.0 -m pip install --upgrade pip
 
 $env:Path = [System.Environment]::GetEnvironmentVariable("Path","Machine") + ";" + [System.Environment]::GetEnvironmentVariable("Path","User")
 Write-Output(">>> INSTALLING REQUIREMENTS...
@@ -40,6 +40,6 @@ Write-Output(">>> INSTALLING REQUIREMENTS...
             ")
 
 Set-Location dogesetup
-python3.10 -m pip uninstall dogesetup
-python3.10 -m pip install dogesetup
-python3.10 -m dogesetup
+python3.10.0 -m pip uninstall dogesetup
+python3.10.0 -m pip install dogesetup
+python3.10.0 -m dogesetup
