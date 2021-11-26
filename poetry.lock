@@ -38,7 +38,7 @@ test = ["flake8 (==3.7.8)", "hypothesis (==3.55.3)"]
 
 [[package]]
 name = "dogesetup"
-version = "1.2.2"
+version = "1.2.3"
 description = "A secure and powerful Python-Telethon based library for Doge UserBot."
 category = "main"
 optional = false
@@ -229,7 +229,7 @@ socks = ["PySocks (>=1.5.6,!=1.5.7,<2.0)"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "bb96c6dcb75a96322bf1a6a44f5c4e7c589800c9ff057c4a2f8d53a9a518d577"
+content-hash = "c4d241b7d20f90cbb15126cac018fb7d4787253e9220bab272bdfa73fe4fa4d8"
 
 [metadata.files]
 certifi = [
@@ -249,8 +249,8 @@ commonmark = [
     {file = "commonmark-0.9.1.tar.gz", hash = "sha256:452f9dc859be7f06631ddcb328b6919c67984aca654e5fefb3914d54691aed60"},
 ]
 dogesetup = [
-    {file = "DogeSetup-1.2.2-py3-none-any.whl", hash = "sha256:50db0795649e44aec413e6ae3137a9a5a84f71f325546b1bb0b318bb34962b0b"},
-    {file = "DogeSetup-1.2.2.tar.gz", hash = "sha256:1e4c57005ea55d841dad0b9080cdf8c45212b4e5fa04fe7d1240ecaaf92c554d"},
+    {file = "DogeSetup-1.2.3-py3-none-any.whl", hash = "sha256:4a11ddf6dc015e973aa960a36a91a65cc22ac03131b45108a4430ba7175cbc32"},
+    {file = "DogeSetup-1.2.3.tar.gz", hash = "sha256:a18b0fa5ed35a62c8656c65c05ae36719a05377261eb5460b4dca0c6e9ac1c7e"},
 ]
 gitdb = [
     {file = "gitdb-4.0.9-py3-none-any.whl", hash = "sha256:8033ad4e853066ba6ca92050b9df2f89301b8fc8bf7e9324d412a63f8bf1a8fd"},
