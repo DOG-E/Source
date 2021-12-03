@@ -19,7 +19,7 @@ test = ["flake8 (==3.7.8)", "hypothesis (==3.55.3)"]
 
 [[package]]
 name = "dogestringsession"
-version = "1.2.1"
+version = "1.2.2"
 description = "A secure and powerful Python-Telethon based library for Doge UserBot."
 category = "main"
 optional = false
@@ -55,7 +55,7 @@ python-versions = ">=3.5"
 
 [[package]]
 name = "rich"
-version = "10.15.1"
+version = "10.15.2"
 description = "Render rich text, tables, progress bars, syntax highlighting, markdown and more to the terminal"
 category = "main"
 optional = false
@@ -98,7 +98,7 @@ cryptg = ["cryptg"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.8"
-content-hash = "aa1b15ac39739336d940dd46dbf8baa6665529a86d548d21043ded079a2e348c"
+content-hash = "d6de31b35fdf0d0d38f0f0bb4e30add3a674687a9e05d64df9752e5eaa233055"
 
 [metadata.files]
 colorama = [
@@ -110,8 +110,8 @@ commonmark = [
     {file = "commonmark-0.9.1.tar.gz", hash = "sha256:452f9dc859be7f06631ddcb328b6919c67984aca654e5fefb3914d54691aed60"},
 ]
 dogestringsession = [
-    {file = "DogeStringSession-1.2.1-py3-none-any.whl", hash = "sha256:68da972ed6e12955f879ee6186098b7f9b061f98f8df666d50ccb06597af4bc2"},
-    {file = "DogeStringSession-1.2.1.tar.gz", hash = "sha256:aa56874b469acc89a8e9f07845909e7cf1cb3a3605f6bff111a82fa6ca535626"},
+    {file = "DogeStringSession-1.2.2-py3-none-any.whl", hash = "sha256:2376de890af822a7c0c8eac90910a036075e3659cb8a2fe46e772640054b48a3"},
+    {file = "DogeStringSession-1.2.2.tar.gz", hash = "sha256:dc8077ae7fda118db20dd0cb69da42283866d85e447a209e7b16077c66422b53"},
 ]
 pyaes = [
     {file = "pyaes-1.6.1.tar.gz", hash = "sha256:02c1b1405c38d3c370b085fb952dd8bea3fadcee6411ad99f312cc129c536d8f"},
@@ -136,8 +136,8 @@ pygments = [
     {file = "Pygments-2.10.0.tar.gz", hash = "sha256:f398865f7eb6874156579fdf36bc840a03cab64d1cde9e93d68f46a425ec52c6"},
 ]
 rich = [
-    {file = "rich-10.15.1-py3-none-any.whl", hash = "sha256:a59fb2721c52c5061ac65f318c0afb709e098b1ab6ce5813ea38982654c4b6ee"},
-    {file = "rich-10.15.1.tar.gz", hash = "sha256:93d0ea3c35ecfd8703dbe52b76885e224ad8d68c7766c921c726b14b22a57b7d"},
+    {file = "rich-10.15.2-py3-none-any.whl", hash = "sha256:43b2c6ad51f46f6c94992aee546f1c177719f4e05aff8f5ea4d2efae3ebdac89"},
+    {file = "rich-10.15.2.tar.gz", hash = "sha256:1dded089b79dd042b3ab5cd63439a338e16652001f0c16e73acdcf4997ad772d"},
 ]
 rsa = [
     {file = "rsa-4.8-py3-none-any.whl", hash = "sha256:95c5d300c4e879ee69708c428ba566c59478fd653cc3a22243eeb8ed846950bb"},
